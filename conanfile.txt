@@ -1,0 +1,18 @@
+
+# not create package, not need conan.py
+
+[requires]
+master402/[~0]
+boost/[~1]
+pugixml/[~1]
+argparse/[~3]
+
+[tool_requires]
+cmake/[~3]
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+#[layout]
+#cmake_layout
